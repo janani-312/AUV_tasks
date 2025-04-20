@@ -1,0 +1,4 @@
+    • So esentially, we want to simulate a chat system between two people (Jolyne and Joestar) using ROS. They should both use the same ROS node and same topic which means that one terminal should act as Jolyne's chat while another terminal acts as Joestar’s chat.
+    • I wanted each user to send messages (act as a publisher) and receive messages (act as a subscriber),so i created a single ROS node that does both publishing and subscribing. So, if both Jolyne and Joestar run this script in different terminals, they can both send and receive messages on the same topic. As they share the topic, each user will receive messages from the other.
+    • The publisher takes user input from the terminal and publishes it to a topic/chat. The subscriber in turn listens to it and displays incoming messages (including from the other user).
+    • To avoid echoing one's own message back to the same terminal, i asked each user for their name.
