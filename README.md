@@ -1,1 +1,1 @@
-# AUV_tasks
+Hey! I’m really interested in joining the AUV Club because I’ve always been curious about how autonomous systems work, especially underwater. I’d love to be part of a team where I can learn new stuff and build cool things, plus just geek out with others who are into the same. I'm excited to contribute to the club!
